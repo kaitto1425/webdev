@@ -1,0 +1,220 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  body{
+    margin: 0px;
+    box-sizing: content-box;
+  }
+.home{
+  background-image: url("/images/bg.PNG");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+.navbar{
+  padding: 50px;
+  background-color: transparent !important;
+  color: white !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  color: white !important;
+  font-size: 1.2rem;
+  padding-right: 50px;
+}
+.searchbar{
+  border-top: none;
+  border-left: none ;
+  border-right: none;
+  background-color: transparent !important;
+  outline:none;
+  border-radius: 0% !important;
+}
+
+.d-flex .nav a{
+  margin: 20px !important;
+  color: white !important;
+}
+.navbar .d-flex .nav a{
+  display: flex !important;
+  justify-content: center !important;
+  align-content: center !important;
+  font-size: 35px !important;
+
+}
+.fa-magnifying-glass{
+  font-size: 30px;
+  align-self: center;
+  left: -40px;
+  font-weight: 600;
+  position: relative;
+}
+.about{
+  width: 100%;
+  margin-top: 100px;
+}
+.about .sometext{
+  justify-content: center;
+  display: block;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+  color: white;
+  margin: 50px;
+}
+.btn-primary{
+  border-radius: 100px !important;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bolder;
+  background-image:linear-gradient(#60c392, #2b5e44);
+  padding: 25px;
+}
+.popularProducts{
+  margin: 50px;
+}
+.popularProducts .owl-carousel .container div{
+  margin: 20px;
+}
+.section1,.section2,.section3{
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 70px;
+  color: red;
+}
+
+.secondary-button,.btn-success{
+  border-radius: 100px;
+  width: 200px;
+  background-color: #c12734;
+  color: white;
+  font-weight: 600;
+}
+.aboutUs{
+  background-image: url("/images/about.jpg");
+  background-size: 100% 100%;
+  width: auto;
+  background-position:center;
+  min-height:100% ;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+
+}
+.aboutUs .text{
+  margin-top: 50px;
+  font-size: 25px;
+  text-align: justify;
+}
+.aboutUs .col{
+  position: relative;
+  top: 100px;
+}
+.product2{
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 50px;
+
+}
+.product2 .container{
+  width: 100% !important;
+}
+.background{
+  margin-top: 140px;
+  width: 400;
+  height: 400;
+  border-radius: 20px;
+  background-color: red;
+  transform: rotate(2deg);
+}
+ .container .row .col{
+  position: relative;
+  margin-bottom: 50px;
+}
+.background .content{
+  width: 400;
+  height: 400;
+  border-radius: 20px;
+  background-color: rgb(226, 226, 226);
+  transform: rotate(-2deg);
+  padding: 10px;
+}
+.name{
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 50px;
+  color: red;}
+.background .content img{
+    position: relative;
+    margin-top: -150px;
+}
+footer{
+  position:inherit;
+  bottom: 0px;
+  background-image: url("/images/footer.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  padding: 50px;
+  bottom: 0px;
+  color: white;
+  
+}
+footer a{
+  color: white;
+  text-decoration: none;
+}
+footer .footer {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+footer .footer .categories,.menu,.contactDetail,.contact{
+  margin: 10px;
+  font-size: 20px;
+}
+ .contact input{
+  border-top: none ;
+  border-left: none ;
+  border-right: none ;
+  background-color: transparent;
+  border-color: #b7b7b7;
+ }
+ .contact{
+  border-radius: 20px;
+  width: 350px;
+  background-color: white;
+  padding: 10px;
+  float: right;
+ }
+ .subscribe{
+  border-radius: 100px !important;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bolder;
+  background-image:linear-gradient(#60c392, #2b5e44);
+  padding: 10px;
+  margin: 10px;
+ }
+ footer hr{
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@media (max-width:1000px) {
+  footer .footer {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+  }
+}
+@media (max-width:991px) {
+  
+}
+@media (max-width:1200px) {
+  .product2{
+    margin-bottom: 200px;
+  }
+}
